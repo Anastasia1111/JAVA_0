@@ -1,0 +1,7 @@
+apply plugin : "java"
+apply plugin : "application"
+mainClassName = "calc.calc"
+
+run {
+standardInput = System.in
+}
